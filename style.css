@@ -1,7 +1,7 @@
 #box01{
     background-color: brown;
-    width: 550px;
-    height: 550px;
+    width: 50px;
+    height: 50px;
 }
 
 #box02{
@@ -26,7 +26,7 @@
 
     /* position: static; */
 }
-
+/* 
 @media(min-width: 600px) {
     #box01 {
         background-color: green;
@@ -39,4 +39,29 @@
         background-color: rgb(251, 255, 0);
 
     }
+} */
+
+h1:hover{
+    background-color: black;
+    color: white;
+    display: inline;
+}
+
+h1:active{
+    background-color: red;
+    color: white;
+    display: inline;
+}
+
+input:focus{
+    background-color: yellow;
+    color: blue;
+}
+
+a:visited{
+    color: brown;
+}
+
+a:link{
+    background-color: gray;
 }
